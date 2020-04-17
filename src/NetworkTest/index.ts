@@ -31,6 +31,8 @@ import OTKAnalytics = require('opentok-solutions-logging');
 export interface NetworkTestOptions {
   audioOnly?: boolean;
   timeout?: number;
+  audioSource?: string;
+  videoSource?: string;
 }
 
 export default class NetworkTest {
